@@ -401,7 +401,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔗 ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʟɪɴᴋs 🔗', url=f'https://t.me/CMV_Links')
             ],[
             InlineKeyboardButton('📌 ᴍʏ ɢʀᴏᴜᴘ', url='https://t.me/CM_Villa'),
-            InlineKeyboardButton('⚒️ ᴍʏ ᴏᴡɴᴇʀ', url='url='https://t.me/kuruthamkettavan')
+            InlineKeyboardButton('⚒️ ᴍʏ ᴏᴡɴᴇʀ', url='https://t.me/kuruthamkettavan')
             ],[
             InlineKeyboardButton('⚠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('⚙️ ᴀʙᴏᴜᴛ', callback_data='about')
@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('sʜᴀʀᴇ ᴍᴇ 🔄', url='https://t.me/share/url?url=https://t.me/mflinkzbot'),
+            InlineKeyboardButton('sʜᴀʀᴇ ᴍᴇ 🔄', url='https://t.me/share/url?url=https://t.me/peruchazhiRobot'),
             InlineKeyboardButton('sᴏᴜʀᴄᴇ 💡', callback_data='source')
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ 🔓', callback_data='start'),
