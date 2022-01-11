@@ -405,6 +405,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('⚙️ ᴀʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -422,6 +424,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ 🔓', callback_data='start'),
             InlineKeyboardButton('sᴛᴀᴛᴜs ♻️', callback_data='stats')
+            ],[
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
